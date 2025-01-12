@@ -1,7 +1,5 @@
-Python scripts to classify large number of images into two classes.
+Python scripts to classify large number of images.
 The model creation is bound for images of 448x448 pixels, then all the training and classify images are bound to this pixel proportions, images can be larger and disproportionate.
-
-Scripts are thought to traverse input directory through the folders inside at only one deep level.
 
 Standard train/test/validate process has been omitted since this is non critical process.
 

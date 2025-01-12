@@ -11,7 +11,6 @@ import cv2
 model_path = 'models/trained_model.pkl'
 
 
-
 # Preprocess Images
 def preprocess_image(image_path, target_size=(448, 448)):
     img = cv2.imread(image_path)
